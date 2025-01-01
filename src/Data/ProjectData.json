@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "image": "ProjectPhotos/proj lms.png",
+    "name": "Learning Management System (MERN Stack)",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Node JS",
+      "Redux",
+      "Tailwind",
+      "Email JS",
+      "Framer-Motion",
+      "Swiper JS",
+      "Locomotive JS",
+      "NodeMailer"
+    ],
+    "desc": "Developed a feature-rich Online Learning Management System using the MERN stack during my internship. The system includes user authentication, course management, OTP-based email verification, and functionalities for students and teachers.",
+    "color": "#F9E27C"
+  },
+  {
+    "id": 2,
+    "image": "ProjectPhotos/proj sundwn.png",
+    "name": "Sundown Studio UI Clone",
+    "tech": ["HTML", "CSS", "JavaScript", "GSAP", "Swiper JS", "Locomotive JS"],
+    "desc": "This project incorporates advanced animations with GSAP, smooth scrolling effects with Locomotive Scroll, and interactive carousels using Swiper, highlighting my expertise in creating dynamic and visually engaging web experiences.",
+    "color": "#1788AE"
+  },
+  {
+    "id": 3,
+    "image": "ProjectPhotos/proj famglf.png",
+    "name": "Sidcup Family Golf Website UI Clone",
+    "tech": ["HTML", "CSS", "JavaScript", "Vanila Tilt JS", "GSAP"],
+    "desc": "This project features smooth animations implemented with GSAP and an interactive layout designed with Vanilla Tile.js, showcasing my front-end development and design skills.",
+    "color": "#FC815C"
+  },
+  {
+    "id": 4,
+    "image": "ProjectPhotos/proj ochi.png",
+    "name": "Ochi.design UI Clone in React",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Framer-Motion",
+      "Locomotive"
+    ],
+    "desc": "This React-based website showcasing modern design and interactivity. The project leverages Framer Motion for smooth animations and transitions, along with Locomotive Scroll for advanced scrolling effects.",
+    "color": "#47ADA3"
+  }
+]

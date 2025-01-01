@@ -1,0 +1,67 @@
+/* .track {
+  display: flex;
+  width: 100%;
+  animation: scroll 5s linear infinite;
+}
+
+.track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-240%);
+  }
+} */
+
+.track {
+  display: flex;
+  width: 100%;
+  animation: scroll-large 15s linear infinite;
+}
+
+.track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-large {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-240%);
+  }
+}
+
+@media (max-width: 640px) {
+  .track {
+    animation: scroll-small 15s linear infinite; /* Even slower animation for very small screens */
+  }
+
+  @keyframes scroll-small {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-600%);
+    }
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .track {
+    animation: scroll-mid 15s linear infinite; /* Even slower animation for very small screens */
+  }
+
+  @keyframes scroll-mid {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-199.9%);
+    }
+  }
+}

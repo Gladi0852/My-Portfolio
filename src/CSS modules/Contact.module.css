@@ -1,0 +1,16 @@
+.load {
+  animation-name: count-down;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  transform-origin: right;
+}
+
+@keyframes count-down {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}

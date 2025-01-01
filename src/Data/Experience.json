@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "name": "Avyaan Management PVT. LTD.",
+    "role": "Software Developer Intern",
+    "duration": "January 2024 - July 2024",
+    "desc": [
+      "Developed and maintained web applications, ensuring high performance, responsiveness, and scalability.",
+      "Debugged, tested, and resolved technical issues to ensure smooth application functionality.",
+      "Developed backend functionalities using Node.js and integrated MongoDB databases for secure data storage and retrieval.",
+      "Implemented RESTful APIs to enable seamless communication between the frontend and backend."
+    ],
+    "image": "ExperiencePhotos/avyaan.jpg"
+  }
+]
