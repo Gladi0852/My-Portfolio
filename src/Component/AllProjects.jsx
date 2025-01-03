@@ -14,18 +14,22 @@ function AllProjects() {
               {/* image div */}
               <div className="z-10 flex justify-center items-center w-2/3 relative">
                 <div className="absolute w-2/3 h-3/4 rounded-full shadow-3xl"></div>
-                <img src={proj.image} className="z-10" />
+                <a href={proj.link} target="_blank" className="z-10">
+                  <img src={proj.image} className="z-10" />
+                </a>
               </div>
               {/* content div */}
               <div className="md:pl-10 xl:px-10 text-white flex flex-col gap-y-6">
-                <h1
-                  className="text-xl sm:text-2xl xl:text-3xl font-medium"
-                  style={{
-                    color: `${proj.color}`,
-                  }}
-                >
-                  {proj.name}
-                </h1>
+                <a href={proj.link} target="_blank">
+                  <h1
+                    className="text-xl sm:text-2xl xl:text-3xl font-medium"
+                    style={{
+                      color: `${proj.color}`,
+                    }}
+                  >
+                    {proj.name}
+                  </h1>
+                </a>
                 <p className="font-light text-xs sm:text-sm xl:text-base leading-5">
                   {proj.desc}
                 </p>

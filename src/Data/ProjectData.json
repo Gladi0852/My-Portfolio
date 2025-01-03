@@ -21,7 +21,8 @@
       "NodeMailer"
     ],
     "desc": "Developed a feature-rich Online Learning Management System using the MERN stack during my internship. The system includes user authentication, course management, OTP-based email verification, and functionalities for students and teachers.",
-    "color": "#F9E27C"
+    "color": "#F9E27C",
+    "link": "https://onlinelearningproject.netlify.app"
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     "name": "Sundown Studio UI Clone",
     "tech": ["HTML", "CSS", "JavaScript", "GSAP", "Swiper JS", "Locomotive JS"],
     "desc": "This project incorporates advanced animations with GSAP, smooth scrolling effects with Locomotive Scroll, and interactive carousels using Swiper, highlighting my expertise in creating dynamic and visually engaging web experiences.",
-    "color": "#1788AE"
+    "color": "#1788AE",
+    "link": "https://sundownstudiocopy.netlify.app"
   },
   {
     "id": 3,
@@ -37,7 +39,8 @@
     "name": "Sidcup Family Golf Website UI Clone",
     "tech": ["HTML", "CSS", "JavaScript", "Vanila Tilt JS", "GSAP"],
     "desc": "This project features smooth animations implemented with GSAP and an interactive layout designed with Vanilla Tile.js, showcasing my front-end development and design skills.",
-    "color": "#FC815C"
+    "color": "#FC815C",
+    "link": "https://sidcupfamilygolf-copy.netlify.app"
   },
   {
     "id": 4,
@@ -52,6 +55,7 @@
       "Locomotive"
     ],
     "desc": "This React-based website showcasing modern design and interactivity. The project leverages Framer Motion for smooth animations and transitions, along with Locomotive Scroll for advanced scrolling effects.",
-    "color": "#47ADA3"
+    "color": "#47ADA3",
+    "link": "https://ochi-uiclone.netlify.app"
   }
 ]

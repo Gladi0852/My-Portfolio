@@ -33,9 +33,11 @@ function Projects() {
                   data.id % 2 == 0 ? "left-0" : "right-0"
                 }`}
               ></div>
-              <div className="z-10 flex justify-center items-center h-fit w-11/12 xl:w-7/12 relative">
+              <div className="z-10 flex justify-center items-center h-fit w-11/12 xl:w-7/12 relative cursor-pointer">
                 <div className="absolute w-1/2 h-3/4 rounded-full shadow-3xl"></div>
-                <img src={data.image} className="z-10" />
+                <a href={data.link} target="_blank" className="z-10">
+                  <img src={data.image} className="z-10" />
+                </a>
               </div>
             </div>
             {/* Middle line */}
@@ -49,14 +51,16 @@ function Projects() {
             </div>
             {/* Content */}
             <div className="text-white w-full md:w-2/3 xl:w-1/2 md:py-10 xl:p-10 flex flex-col justify-center gap-5">
-              <h1
-                className="text-xl sm:text-2xl xl:text-3xl font-medium"
-                style={{
-                  color: `${data.color}`,
-                }}
-              >
-                {data.name}
-              </h1>
+              <a href={data.link} target="_blank">
+                <h1
+                  className="text-xl sm:text-2xl xl:text-3xl font-medium"
+                  style={{
+                    color: `${data.color}`,
+                  }}
+                >
+                  {data.name}
+                </h1>
+              </a>
               <p className="font-light text-xs sm:text-sm xl:text-base leading-5">
                 {data.desc}
               </p>
